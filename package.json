@@ -22,6 +22,10 @@
     "test": "npm-run-all lint test:*",
     "test:ember": "ember test"
   },
+  "resolutions": {
+    "ember-cli-htmlbars": "^5.4.0",
+    "babel-plugin-ember-modules-api-polyfill": "^3.4.0"
+  },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.2.0",
@@ -34,7 +38,7 @@
     "ember-cli-app-version": "^4.0.0",
     "ember-cli-babel": "^7.23.1",
     "ember-cli-dependency-checker": "^3.2.0",
-    "ember-cli-htmlbars": "^5.3.2",
+    "ember-cli-htmlbars": "^5.4.0",
     "ember-cli-inject-live-reload": "^2.0.2",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.1",
@@ -47,6 +51,7 @@
     "ember-qunit": "^5.1.2",
     "ember-resolver": "^8.0.2",
     "ember-source": "~3.25.1",
+    "ember-template-imports": "^1.0.0",
     "ember-template-lint": "^2.18.1",
     "ember-welcome-page": "^4.0.0",
     "eslint": "^7.20.0",
